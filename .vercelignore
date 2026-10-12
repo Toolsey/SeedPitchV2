@@ -1,0 +1,21 @@
+# Node
+node_modules
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode
+.idea
+
+# Build output (none for this static site)
+dist
+build
+.vercel
+
+# Secrets
+.env
+.env.*
+!.env.example

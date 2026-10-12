@@ -1,0 +1,27 @@
+# Local / OS
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Node (not required for this static deck, but safe to include)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+dist/
+build/
+.vercel
+
+# Temporary
+*.tmp
+*.bak
